@@ -1,0 +1,86 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title"> Survey Form</h1>
+    <p id="description">Please take a few minutes  to fill out this survey</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"> Name
+          <input id="name" type="text" placeholder="example. Franklin Okeke" required>
+        </label>
+        <label id="email-label"> E-Mail
+          <input id="email" type="email" placeholder="example. CamperFrank@hotmail.com" required>
+        </label>
+        <label id="number-label">
+        Age
+        <input id="number" type="number" placeholder="current Age" pattern="[0-9]" min="0" max="10">
+        </label>
+      </fieldset>
+      <fieldset>
+        <select id="dropdown">
+          <option>(select one)</option>
+          <option>Computer Science</option>
+          <option>Architect</option>
+          <option>Medicine</option>
+          <option>Music</option>
+          <option>Others</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label><input type="radio" name="professional-level" value="1"> Student</label>
+       <label><input type="radio" name="professional-level" value="2"> Vocational Training</label>
+       <label><input type="radio" name="professional-level" value="3"> Expert</label>
+      </fieldset>
+      <fieldset>
+        <label> What additional skills will you like to acquire: </label>
+        <label><input type="checkbox" value="1"> Painting </label>
+        <label><input type="checkbox" value="2"> Car driving</label>
+        <label><input type="checkbox" value="3"> Coding </label>
+        <label><input type="checkbox" value="4"> Cooking </label>
+        <label><input type="checkbox" value="5"> Building </label>
+        <label><input type="checkbox" value="6"> Teaching </label>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="additional comment"></textarea>
+      </fieldset> 
+      <input id="submit" type="submit"> 
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+label, input, textarea{
+  display: block;
+  width: 100%;
+  background-color: #001858;
+  color: white;
+
+}
+
+h1, p{
+  text-align: center;
+}
+
+body{
+  background-color: #001858;
+}
+
+fieldset{
+  border: 0;
+  padding: auto auto auto auto;
+}
+
+
+
+** end of undefined **
+
